@@ -1,0 +1,66 @@
+
+@import "variables";
+.window {
+  @extend %main-font;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  position: fixed;
+  height: 400px;
+  width: 320px;
+  font-size: 18px;
+  background: #FFF;
+  z-index: 999999;
+  border-radius: 32px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 0;
+  right: 0;
+  top: 10%;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+.image-window {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 16px;
+}
+
+.title-window {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.description-window {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+
+.button-window {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #2296FE;
+  border-radius: 12px;
+  color: #FFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  width: 100%;
+  padding: 12px 0;
+  margin-top: auto;
+}

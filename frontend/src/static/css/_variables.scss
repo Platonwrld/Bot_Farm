@@ -1,0 +1,26 @@
+%main-font {
+  font-family: "Inter";
+  font-style: normal;
+}
+
+%poppins-font {
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+%row {
+  display: flex;
+}
+
+%column {
+  display: flex;
+  flex-direction: column;
+}
+
+%button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none;
+}

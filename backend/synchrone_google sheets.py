@@ -1,0 +1,3 @@
+from celery_schedulers import synchronization_google_sheets
+
+synchronization_google_sheets()

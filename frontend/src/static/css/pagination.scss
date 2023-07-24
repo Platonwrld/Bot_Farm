@@ -1,0 +1,33 @@
+@import "variables";
+
+.pagination {
+  @extend %row;
+  justify-content: center;
+  button {
+    @extend %button;
+    @extend %row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 34px;
+  }
+  .image-button {
+    padding: 8px 16px;
+  }
+
+  .active {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    background: #38B4FE;
+    border-radius: 8px;
+  }
+
+  .next {
+    transform: rotate(90deg);
+  }
+
+  .prev {
+    transform: rotate(-90deg);
+  }
+}

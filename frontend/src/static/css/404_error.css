@@ -1,0 +1,34 @@
+.header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #000;
+  margin-bottom: 40px; }
+
+.description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  width: 500px; }
+
+.image-404 {
+  margin-top: 80px;
+  width: 500px;
+  margin-bottom: 100px; }
+
+.button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px 195px;
+  color: #FFF;
+  background: #2296FE;
+  border-radius: 12px;
+  text-decoration: none; }

@@ -1,0 +1,11 @@
+.main-header .logo {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none; }
+
+.main-header {
+  margin-bottom: 32px; }
+  .main-header .logo {
+    width: 140px; }

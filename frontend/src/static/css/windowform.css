@@ -1,0 +1,64 @@
+.window-form-input::placeholder, .window-form-input, .window-form {
+  font-family: "Inter";
+  font-style: normal; }
+
+.window-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  position: fixed;
+  height: 200px;
+  width: 320px;
+  font-size: 18px;
+  background: #FFF;
+  z-index: 999999;
+  border-radius: 32px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  left: 0;
+  right: 0;
+  top: 10%;
+  bottom: 0;
+  margin: 0 auto; }
+  .window-form .form-title {
+    font-family: 'Inter';
+    font-size: 24px;
+    margin-block: 0;
+    margin-bottom: 40px; }
+  .window-form .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%; }
+    .window-form .button-group button {
+      cursor: pointer;
+      border: none;
+      outline: none;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      color: #FFFFFF;
+      border-radius: 12px;
+      padding: 10px; }
+    .window-form .button-group .main-button {
+      background: #2296FE; }
+    .window-form .button-group .cancel-button {
+      background: red; }
+
+.window-form-input {
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  background: #FFF;
+  border: 1px solid #E1E5E9;
+  border-radius: 8px;
+  color: #404040;
+  padding: 16px;
+  width: 90%; }
+
+.window-form-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #404040; }

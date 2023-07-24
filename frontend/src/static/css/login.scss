@@ -1,0 +1,47 @@
+@import "variables";
+
+.main-form {
+  @extend %row;
+  .form {
+    @extend %column;
+    justify-content: center;
+    width: 50%;
+    padding-right: 10%;
+
+    .input {
+      @extend %main-font;
+      outline: none;
+      font-weight: 400;
+      font-size: 14px;
+      color: #404040;
+      background: #FFF;
+      border: 1px solid #E1E5E9;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 25px;
+    }
+
+
+    .input::placeholder {
+      font-weight: 400;
+      font-size: 14px;
+      color: #404040;
+    }
+
+
+    .button {
+      @extend %main-font;
+      @extend %button;
+      font-weight: 600;
+      font-size: 18px;
+      color: #FFF;
+      background: #2296FE;
+      border-radius: 12px;
+      padding: 12px 150px;
+      margin-top: 15px;
+    }
+  }
+  .form-logo {
+    width: 50%;
+  }
+}

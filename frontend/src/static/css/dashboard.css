@@ -1,0 +1,108 @@
+.dashboard-create-button span, .dashboard-data-title {
+  font-family: "Inter";
+  font-style: normal; }
+
+.dashboard-data-counter {
+  font-family: "Poppins";
+  font-style: normal; }
+
+.dashboard-create-button, .dashboard-additional-block, .dashboard-row {
+  display: flex; }
+
+.dashboard-data, .dashboard-block {
+  display: flex;
+  flex-direction: column; }
+
+.dashboard-create-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none; }
+
+.dashboard-row {
+  justify-content: space-between;
+  margin-bottom: 32px; }
+
+.dashboard-block {
+  background: #FFF;
+  border-radius: 12px;
+  padding: 32px; }
+
+.dashboard-additional-block {
+  justify-content: space-between; }
+
+.dashboard-data {
+  padding: 32px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  color: #404040;
+  text-decoration: none; }
+
+.dashboard-data-title {
+  font-weight: 400;
+  font-size: 16px; }
+
+.dashboard-data-counter {
+  font-weight: 600;
+  font-size: 48px;
+  color: #000; }
+
+.dashboard-create-button {
+  align-items: center;
+  margin-top: auto;
+  margin-left: auto;
+  background: #FFF;
+  border-radius: 12px;
+  padding: 12px 40px; }
+  .dashboard-create-button span {
+    font-weight: 600;
+    font-size: 18px; }
+  .dashboard-create-button img {
+    width: 18px;
+    margin-left: 8px; }
+
+.dashboard-dark-green {
+  background: #33566B; }
+  .dashboard-dark-green .dashboard-data-title {
+    color: #FFF; }
+  .dashboard-dark-green .dashboard-data-counter {
+    color: #FFF; }
+  .dashboard-dark-green .dashboard-create-button span {
+    color: #10415E; }
+
+.dashboard-main-color {
+  background: #FFF;
+  border: 2px solid #E1E5E9;
+  border-radius: 12px; }
+
+.dashboard-light-gray {
+  background: #F2F7F9; }
+  .dashboard-light-gray .dashboard-create-button {
+    border: 1px solid #404040; }
+    .dashboard-light-gray .dashboard-create-button span {
+      color: #404040; }
+
+.dashboard-dark-gray {
+  background: #DDE7EB; }
+
+.dashboard-blue-background {
+  background: #38B4FE; }
+  .dashboard-blue-background .dashboard-data-title {
+    color: #FFF; }
+  .dashboard-blue-background .dashboard-data-counter {
+    color: #FFF; }
+  .dashboard-blue-background .dashboard-create-button span {
+    color: #38B4FE; }
+
+.dashboard-blue-border {
+  background: #F4FAFE;
+  border: 2px solid #38B4FE; }
+  .dashboard-blue-border .dashboard-data-title {
+    color: #38B4FE; }
+
+.dashboard-red-border {
+  background: #FFF0F0;
+  border: 2px solid #FE5656; }
+  .dashboard-red-border .dashboard-data-title {
+    color: #FE5656; }

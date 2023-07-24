@@ -1,0 +1,20 @@
+.header {
+  font-family: "Poppins";
+  font-style: normal; }
+
+body {
+  padding: 40px 64px; }
+
+h1, h2, span {
+  margin-block: 0; }
+
+.main-data {
+  background: linear-gradient(58.92deg, #DBF9FF 46.73%, rgba(219, 249, 255, 0) 111.56%);
+  border-radius: 32px;
+  padding: 64px 112px; }
+
+.header {
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 32px; }

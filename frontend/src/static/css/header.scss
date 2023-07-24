@@ -1,0 +1,9 @@
+@import "variables";
+
+.main-header {
+  margin-bottom: 32px;
+  .logo {
+    @extend %button;
+    width: 140px;
+  }
+}

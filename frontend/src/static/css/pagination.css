@@ -1,0 +1,29 @@
+.pagination button, .pagination {
+  display: flex; }
+
+.pagination button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none; }
+
+.pagination {
+  justify-content: center; }
+  .pagination button {
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 34px; }
+  .pagination .image-button {
+    padding: 8px 16px; }
+  .pagination .active {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFF;
+    background: #38B4FE;
+    border-radius: 8px; }
+  .pagination .next {
+    transform: rotate(90deg); }
+  .pagination .prev {
+    transform: rotate(-90deg); }

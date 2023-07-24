@@ -1,0 +1,47 @@
+.main-form .form .button, .main-form .form .input {
+  font-family: "Inter";
+  font-style: normal; }
+
+.main-form {
+  display: flex; }
+
+.main-form .form {
+  display: flex;
+  flex-direction: column; }
+
+.main-form .form .button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  text-decoration: none; }
+
+.main-form .form {
+  justify-content: center;
+  width: 50%;
+  padding-right: 10%; }
+  .main-form .form .input {
+    outline: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #404040;
+    background: #FFF;
+    border: 1px solid #E1E5E9;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 25px; }
+  .main-form .form .input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    color: #404040; }
+  .main-form .form .button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFF;
+    background: #2296FE;
+    border-radius: 12px;
+    padding: 12px 150px;
+    margin-top: 15px; }
+
+.main-form .form-logo {
+  width: 50%; }
